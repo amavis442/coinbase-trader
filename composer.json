@@ -1,0 +1,43 @@
+{
+    "name": "patrickteunissen/coinbase",
+    "description": "Coinabase Api",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Teunissen",
+            "email": "p.teunissen18@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "coinbase/coinbase": "^2.0@dev",
+        "monolog/monolog": "^2.0@dev",
+        "predis/predis": "^2.0@dev",
+        "symfony/console": "^4.1@dev",
+        "symfony/debug": "^4.1@dev",
+        "symfony/dotenv": "^4.1@dev",
+        "symfony/http-foundation": "^4.1@dev",
+        "symfony/polyfill-php71": "^1.6@dev",
+        "symfony/var-dumper": "^4.1@dev"
+    },
+    "config": {
+        "platform": {
+            "php": "7.1.3"
+        },
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    }
+}
