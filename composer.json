@@ -10,16 +10,18 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefere-stable": true,
     "require": {
-        "coinbase/coinbase": "^2.0@dev",
-        "monolog/monolog": "^2.0@dev",
-        "predis/predis": "^2.0@dev",
-        "symfony/console": "^4.1@dev",
-        "symfony/debug": "^4.1@dev",
-        "symfony/dotenv": "^4.1@dev",
-        "symfony/http-foundation": "^4.1@dev",
-        "symfony/polyfill-php71": "^1.6@dev",
-        "symfony/var-dumper": "^4.1@dev"
+        "coinbase/coinbase": "^2.5",
+        "monolog/monolog": "^2.0",
+        "predis/predis": "^2.0",
+        "symfony/console": "^4.1",
+        "symfony/debug": "^4.1",
+        "symfony/dotenv": "^4.1",
+        "symfony/http-foundation": "^4.1",
+        "symfony/polyfill-php71": "^1.6",
+        "symfony/var-dumper": "^4.1",
+        "symfony/yaml": "^4.1"
     },
     "config": {
         "platform": {
